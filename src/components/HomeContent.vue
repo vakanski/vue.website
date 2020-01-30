@@ -28,7 +28,7 @@ export default {
   },
   created: function() {
     this.$http
-      .get("http://source.mk/sourcico.com/wp-json/acf/v3/pages/196")
+      .get("https://source.mk/sourcico.com/wp-json/acf/v3/pages/196")
       .then(
         response => {
           for (let post in response.data) {

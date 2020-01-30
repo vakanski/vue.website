@@ -7,7 +7,7 @@ import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 Vue.use(VueResource);
-Vue.http.options.root = "http://source.mk/sourcico.com/wp-json";
+Vue.http.options.root = "https://source.mk/sourcico.com/wp-json";
 
 Vue.config.productionTip = false;
 

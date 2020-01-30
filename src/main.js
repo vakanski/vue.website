@@ -6,6 +6,8 @@ import VueResource from "vue-resource";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+require("@/assets/css/style.css");
+
 Vue.use(VueResource);
 Vue.http.options.root = "https://source.mk/sourcico.com/wp-json";
 

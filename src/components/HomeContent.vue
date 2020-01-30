@@ -1,6 +1,12 @@
 <template>
   <div class="hello">
     <!-- <h1>{{ msg }}</h1> -->
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      With Bootstrap!
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
     <div v-for="post in posts" v-bind:key="post.id">
       <h1>{{ post.section_1_title }}</h1>
     </div>
@@ -9,7 +15,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "HomeContent",
   data: function() {
     return {
       posts: []

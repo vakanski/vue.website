@@ -18,8 +18,12 @@
         <div class="col-md-6">
           <div class="text-img">
             <picture>
-              <source type="image/webp" srcset="images/box_img.webp" alt="" />
-              <img src="images/box_img.png" alt="" />
+              <source
+                type="image/webp"
+                srcset="../assets/images/box_img.webp"
+                alt=""
+              />
+              <img src="../assets/images/box_img.png" alt="" />
             </picture>
           </div>
         </div>

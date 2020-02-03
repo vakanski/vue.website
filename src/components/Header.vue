@@ -13,10 +13,10 @@
                       <picture>
                         <source
                           type="image/webp"
-                          srcset="images/logo.webp"
+                          srcset="../assets/images/logo.webp"
                           alt=""
                         />
-                        <img src="images/logo.png" alt="" />
+                        <img src="../assets/images/logo.png" alt="" />
                       </picture>
                     </a>
                   </div>

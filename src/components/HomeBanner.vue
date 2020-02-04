@@ -6,13 +6,12 @@
           <div class="text-bg">
             <div v-for="post in posts" v-bind:key="post.id">
               <h1>{{ post.homepage_title_1 }}</h1>
-            </div>
 
-            <p>
-              Sourcico’s purpose is to enable you to speed-up your development
-              pace while maintaining cost-efficiancy and flexability.
-            </p>
-            <a href="services.html">Read More</a>
+              <p>
+                {{ post.homepage_desc_1 }}
+              </p>
+              <a href="/services">Read More</a>
+            </div>
           </div>
         </div>
         <div class="col-md-6">

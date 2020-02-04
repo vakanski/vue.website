@@ -231,7 +231,7 @@ button {
 
 .main-layout {
     background-repeat: no-repeat;
-    /* background: url(../assets/body_bg.png); */
+    background: url(../images/body_bg.png);
 }
 
 .loader_bg {
@@ -294,7 +294,7 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .head_top {
-    /* background: url(@/banner.png); */
+    background: url(../images/banner.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -492,7 +492,7 @@ button {
     width: 320px;
     height: 542px;
     right: 0;
-    /* background: url(@/midil.png); */
+    background: url(../images/midil.png);
     top: -210px;
 }
 
@@ -856,7 +856,7 @@ ul.social_icon li a:hover {
     content: "";
     position: absolute;
     bottom: 61px;
-    /* background: url(@/bottom.png); */
+    background: url(../images/bottom.png);
     width: 290px;
     height: 292px;
     right: 0;

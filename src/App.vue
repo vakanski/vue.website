@@ -1,20 +1,26 @@
 <template>
   <div id="app">
     <my-header></my-header>
-    <div id="nav">
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/services">Services</router-link>
-    </div>
+    </div> -->
     <router-view />
+    <my-footer></my-footer>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 export default {
+  beforeCreate: function() {
+    document.body.className = "main-layout";
+  },
   components: {
-    "my-header": Header
+    "my-header": Header,
+    "my-footer": Footer
   }
 };
 </script>

@@ -298,9 +298,13 @@ export default {
       posts: []
     };
   },
+
   created: function() {
+    var pageId = 196;
     this.$http
-      .get("https://source.mk/sourcico.com/wp-json/acf/v3/pages/196")
+      .get("https://source.mk/sourcico.com/wp-json/acf/v3/pages/196", {
+        params: { page: pageId }
+      })
       .then(
         response => {
           for (let post in response.data) {

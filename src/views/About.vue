@@ -1,5 +1,21 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <AboutContent />
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import AboutContent from "@/components/AboutContent.vue";
+
+export default {
+  name: "about",
+  beforeCreate: function() {
+    document.body.className = "main-layout clean";
+  },
+
+  components: {
+    AboutContent
+  }
+};
+</script>

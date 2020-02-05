@@ -11,6 +11,9 @@ import HomeContent from "@/components/HomeContent.vue";
 
 export default {
   name: "home",
+  beforeCreate: function() {
+    document.body.className = "main-layout";
+  },
   components: {
     HomeContent
   }

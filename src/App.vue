@@ -15,9 +15,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 export default {
-  beforeCreate: function() {
-    document.body.className = "main-layout";
-  },
   components: {
     "my-header": Header,
     "my-footer": Footer

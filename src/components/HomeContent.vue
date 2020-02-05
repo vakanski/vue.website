@@ -237,7 +237,12 @@
         <div class="container ">
           <div class="row ">
             <div class="col-md-12 ">
-              <form class="main_form " method="POST " data-netlify="true ">
+              <form
+                class="main_form "
+                method="POST "
+                data-netlify="true"
+                netlify
+              >
                 <div class="row ">
                   <div class="col-md-12 ">
                     <input

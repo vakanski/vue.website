@@ -52,10 +52,14 @@
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="careers.html">Careers</a>
+                      <router-link to="/careers" class="nav-link"
+                        >Career</router-link
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
+                      <router-link to="/contact" class="nav-link"
+                        >Contact</router-link
+                      >
                     </li>
                   </ul>
                 </div>

@@ -1,21 +1,21 @@
 <template>
-  <div class="">
-    <ServicesContent />
+  <div class="about">
+    <ContactContent />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import ServicesContent from "@/components/ServicesContent.vue";
+import ContactContent from "@/components/ContactContent.vue";
 
 export default {
-  name: "Services",
+  name: "about",
   beforeCreate: function() {
     document.body.className = "main-layout clean";
   },
 
   components: {
-    ServicesContent
+    ContactContent
   }
 };
 </script>

@@ -357,7 +357,7 @@
 
 <script>
 export default {
-  name: "Aboutontent",
+  name: "AboutContent",
   data: function() {
     return {
       posts: []

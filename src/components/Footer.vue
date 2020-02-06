@@ -13,18 +13,13 @@
           <div class="col-md-12 ">
             <ul class="social_icon ">
               <li>
-                <a href="# "
-                  ><i class="fa fa-facebook " aria-hidden="true "></i
+                <a href="https://www.facebook.com/sourcicomk/ "
+                  ><i class="fab fa-facebook "></i
                 ></a>
               </li>
               <li>
-                <a href="# "
-                  ><i class="fa fa-twitter " aria-hidden="true "></i
-                ></a>
-              </li>
-              <li>
-                <a href="# "
-                  ><i class="fa fa-linkedin " aria-hidden="true "></i
+                <a href="https://www.linkedin.com/company/sourcico/ "
+                  ><i class="fab fa-linkedin "></i
                 ></a>
               </li>
             </ul>
@@ -35,7 +30,13 @@
         <div class="container ">
           <div class="row ">
             <div class="col-md-12 ">
-              <p>Copyright 2020 All Right Reserved By Sourcico</p>
+              <p>
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Website Terms of Use </a> | <a href="#">Contact</a>
+              </p>
+              <p>
+                <small>Copyright 2020 All Right Reserved By Sourcico</small>
+              </p>
             </div>
           </div>
         </div>

@@ -238,49 +238,54 @@
           <div class="row ">
             <div class="col-md-12 ">
               <form
-                class="main_form "
-                method="POST "
-                data-netlify="true"
-                netlify
+                class="main_form"
+                action="https://formspree.io/xnqdzpyb"
+                method="POST"
               >
-                <div class="row ">
+                <div class="row">
                   <div class="col-md-12 ">
                     <input
-                      class="form_contril "
+                      class="form_contril"
                       placeholder="Name "
-                      type="text "
+                      type="text"
                       name="Name "
+                      required="true"
                     />
                   </div>
-                  <div class="col-md-12 ">
+                  <div class="col-md-12">
                     <input
-                      class="form_contril "
-                      placeholder="Phone Number "
-                      type="text "
-                      name=" Phone Number "
+                      class="form_contril"
+                      placeholder="Phone Number"
+                      type="text"
+                      name=" Phone Number"
+                      required="true"
                     />
                   </div>
-                  <div class="col-md-12 ">
+                  <div class="col-md-12">
                     <input
-                      class="form_contril "
-                      placeholder="Email "
-                      type="email "
-                      name="Email "
+                      class="form_contril"
+                      placeholder="Email"
+                      type="email"
+                      name="Email"
+                      required="true"
                     />
                   </div>
-                  <div class="col-md-12 ">
+                  <div class="col-md-12">
                     <textarea
-                      class="textarea "
-                      placeholder="Message "
-                      type="text "
-                      name="Message "
+                      class="textarea"
+                      placeholder="Message"
+                      type="text"
+                      name="Message"
+                      required="true"
                     ></textarea>
                   </div>
-                  <div class="col-md-12 ">
-                    <div data-netlify-recaptcha="true "></div>
-                  </div>
-                  <div class="col-sm-12 ">
-                    <button type="submit " class="send_btn ">Send</button>
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://mysite.com/thanks.html"
+                  />
+                  <div class="col-sm-12">
+                    <button type="submit" class="send_btn">Send</button>
                   </div>
                 </div>
               </form>

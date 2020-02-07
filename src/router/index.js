@@ -49,9 +49,10 @@ const routes = [
 
   // for routes with named views, you have to define the `props` option for each named view:
   {
-    path: "/user/:id",
+    path: "/career/:id",
     props: true,
-    component: () => import(/* webpackChunkName: "about" */ "../views/User.vue")
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/CareerSingle.vue")
   }
 ];
 

@@ -251,7 +251,7 @@ export default {
 
   created: function() {
     this.$http
-      .get("http://source.mk/sourcico.com/wp-json/wp/v2/careers/")
+      .get("https://source.mk/sourcico.com/wp-json/wp/v2/careers/")
       .then(function(response) {
         this.contents = response.data;
       });

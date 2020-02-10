@@ -49,4 +49,7 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
 }
+a {
+  color: #0891f8;
+}
 </style>

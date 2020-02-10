@@ -86,7 +86,7 @@ export default {
     }
     this.$http
       .get(
-        "http://source.mk/sourcico.com/wp-json/wp/v2/careers/" + $job_id + "/"
+        "https://source.mk/sourcico.com/wp-json/wp/v2/careers/" + $job_id + "/"
       )
       .then(function(response) {
         this.contents = response.data;

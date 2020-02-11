@@ -9,7 +9,7 @@
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
-                    <a href="index.html">
+                    <router-link to="/">
                       <picture>
                         <source
                           type="image/webp"
@@ -18,7 +18,7 @@
                         />
                         <img src="../assets/images/logo.png" alt="" />
                       </picture>
-                    </a>
+                    </router-link>
                   </div>
                 </div>
               </div>

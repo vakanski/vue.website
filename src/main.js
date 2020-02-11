@@ -5,8 +5,8 @@ import store from "./store";
 import VueResource from "vue-resource";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "@fortawesome/fontawesome-free/css/all.css";
-import "@fortawesome/fontawesome-free/js/all.js";
+// import "@fortawesome/fontawesome-free/css/all.css";
+// import "@fortawesome/fontawesome-free/js/all.js";
 
 require("@/assets/css/style.css");
 require("@/assets/css/responsive.css");

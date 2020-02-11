@@ -11,7 +11,7 @@
                         </div> -->
           </div>
           <div class="col-md-12 ">
-            <ul class="social_icon ">
+            <!-- <ul class="social_icon ">
               <li>
                 <a href="https://www.facebook.com/sourcicomk/ "
                   ><i class="fab fa-facebook "></i
@@ -22,7 +22,7 @@
                   ><i class="fab fa-linkedin "></i
                 ></a>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>

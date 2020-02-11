@@ -24,7 +24,7 @@ const routes = [
     }
   },
   {
-    path: "/about",
+    path: "/about/",
     name: "about",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -33,7 +33,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue")
   },
   {
-    path: "/services",
+    path: "/services/",
     name: "services",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -42,7 +42,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/Services.vue")
   },
   {
-    path: "/careers",
+    path: "/careers/",
     name: "careers",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -51,7 +51,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/Careers.vue")
   },
   {
-    path: "/contact",
+    path: "/contact/",
     name: "contact",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -62,7 +62,7 @@ const routes = [
 
   // for routes with named views, you have to define the `props` option for each named view:
   {
-    path: "/career/:id",
+    path: "/career/:id/",
     props: true,
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/CareerSingle.vue")

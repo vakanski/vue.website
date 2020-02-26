@@ -10,15 +10,16 @@ const routes = [
     name: "home",
     component: Home,
     meta: {
-      title: "Home Page - Example App",
+      title: "Sourcico - We translate your vision into reality",
       metaTags: [
         {
           name: "description",
-          content: "The home page of our example app."
+          content:
+            "Our Mission is to tailor the best fit solution, very fast and at a very competitive cost."
         },
         {
           property: "og:description",
-          content: "The home page of our example app."
+          content: "We translate your vision into reality."
         }
       ]
     }

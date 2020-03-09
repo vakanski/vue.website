@@ -83,7 +83,23 @@ export default {
     if (this.$props.id == "front-end-developer") {
       var $job_id = 273;
       // console.log($job_id);
+    } else if (this.$props.id == "full-stack-developer") {
+      $job_id = 279;
+      // console.log($job_id);
+    } else if (this.$props.id == "android-developer") {
+      $job_id = 278;
+      // console.log($job_id);
+    } else if (this.$props.id == "ios-developer") {
+      $job_id = 277;
+      // console.log($job_id);
+    } else if (this.$props.id == "back-end-developer") {
+      $job_id = 276;
+      // console.log($job_id);
+    } else if (this.$props.id == " c-developer") {
+      $job_id = 275;
+      // console.log($job_id);
     }
+
     this.$http
       .get(
         "https://source.mk/sourcico.com/wp-json/wp/v2/careers/" + $job_id + "/"

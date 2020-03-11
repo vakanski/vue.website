@@ -26,7 +26,8 @@
                 <div class="col-md-12 ">
                   <form
                     class="main_form"
-                    action="https://formspree.io/xnqdzpyb"
+                    action="https://submit-form.com/0yxyk0y-APLxxLJ-q7Pmv"
+                    target="_self"
                     method="POST"
                   >
                     <div class="row">

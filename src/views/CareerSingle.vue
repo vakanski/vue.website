@@ -7,7 +7,9 @@
           <div class="row">
             <div class="col-md-12">
               <div class="titlepage">
-                <h1>{{ contents.title.rendered }}</h1>
+                <h1>
+                  {{ contents ? contents.title.rendered : null }}
+                </h1>
                 <span>we are looking for </span>
                 <!-- <h2>{{ posts.[10].rendered }}</h2> -->
                 <p>
@@ -30,7 +32,9 @@
                       />
                       <img src="../assets/images/career.jpg" alt="" />
                     </picture>
-                    <span v-html="contents.content.rendered"></span>
+                    <span
+                      v-html="contents ? contents.content.rendered : null"
+                    ></span>
                   </div>
                 </div>
               </div>
@@ -73,7 +77,7 @@ export default {
   },
   data: function() {
     return {
-      contents: [],
+      contents: null,
       loading: true
     };
   },

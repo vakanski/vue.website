@@ -69,8 +69,8 @@
                       </div>
                       <input
                         type="hidden"
-                        name="_next"
-                        value="https://mysite.com/thanks.html"
+                        name="_redirect"
+                        value="https://your-website.com/thanks.html"
                       />
                       <div class="col-sm-12">
                         <button type="submit" class="send_btn">Send</button>
